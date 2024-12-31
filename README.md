@@ -26,13 +26,16 @@ Ensure you have the following installed on your machine:
    git clone https://github.com/your-username/kanyewest-bot.git
    cd kanyewest-bot
 2. **Install Dependencies
-   ```npm install
+   ```bash
+   npm install
 
 3. **Create .env File In the project root, create a .env file with the following content:
-    ```OPENAI_API_KEY=your_openai_api_key
+    ```bash
+   OPENAI_API_KEY=your_openai_api_key
 
 4. **Start the Application
-   ```node server.js
+   ```bash
+   node server.js
 
 ### Tips:
 1. Replace `your-username` in the clone URL with your GitHub username.
